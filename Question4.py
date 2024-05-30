@@ -7,6 +7,7 @@ def find_duplicates(nums):
             nums[abs(num) - 1] *= -1
     return duplicates
 
+
 input_array = [4, 3, 2, 7, 8, 2, 3, 1]
 output = find_duplicates(input_array)
 print(output)
